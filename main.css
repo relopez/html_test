@@ -1,0 +1,133 @@
+body {
+    margin: 0 auto 0 auto;
+    }
+
+header {
+    font-style: bold;
+    margin:auto;
+}
+
+main {
+    background: #75a6b5;
+    padding: 50px;
+
+}
+
+footer {
+    height: 230px;
+    font-style: bold;
+    background-color: #222;
+    color: #f7f7f7;
+    }
+
+.box_logo {
+    /*background-color: red;*/
+    padding: 5px;
+    margin-left: 50px;
+    float: left;
+}
+
+.box_header {
+  float: right;
+}
+
+li {
+  list-style-type: none;
+}
+
+header a {
+    color: #666;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #999;
+    text-decoration: none;
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.boxes_outter {
+  background-color: #f7f7f7;
+  /*background-color:orange;*/
+  padding-top: 10px;
+}
+
+.boxes_inner {
+  width: 75%;
+  /*background-color: blue;*/
+  margin: auto;
+}
+
+.box_course {
+  float: left;
+  width: 200px;
+  height: 300px;
+  background-color: #fff;
+  margin: 30px 30px 40px 30px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #bfbfbf;
+  border-radius: 1em;
+}
+
+table {
+    text-align: center;
+}
+
+td {
+    padding-top: 5px;
+    width: 180px;
+}
+
+.footer_left {
+  float: left;
+  padding: 30px;
+  /*background-color: blue;*/
+  width: 45%;
+}
+
+.footer_middle {
+  float: left;
+  padding-top: 45px;
+}
+
+.footer_right {
+  float: right;
+  padding: 30px;
+  /* background-color: red; */
+  width: 45%;
+}
+
+.course_img {
+  padding: 10px;
+  padding-bottom: 0;
+  margin: 10px;
+  margin-bottom: 0;
+  /* background-color: red; */
+}
+
+.course_text {
+  text-align: center;
+  /* background-color:red; */
+}
+
+/*
+.clear {
+    display: block;
+    clear: both;
+} 
+
+Depois de divs floating left/right */
+
+.clear {
+    display: block;
+    clear: both;
